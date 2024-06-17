@@ -21,7 +21,7 @@ if not os.path.exists(downloads_directory+'/photos'):
 
 logging.basicConfig(level=logging.INFO)
 
-bot = aiogram.Bot(token=settings.bot['token'])
+bot = aiogram.Bot(token=settings.bot['6891484332:AAHAiVZDQZc7CHW8SRYg_iVe-rC3e20_E2w'])
 dp = aiogram.Dispatcher(bot)
 
 class IsAllowedUser(aiogram.dispatcher.filters.BoundFilter):
