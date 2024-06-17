@@ -1,7 +1,7 @@
 bot = {
     'token': open('BOT_SETTINGS/TOKEN', 'r').readline(), # Bot token
     'admin': int(open('BOT_SETTINGS/ADMIN_ID', 'r').readline()), # Admin id
-    'allowed_users': list(map(lambda x: int(x.strip('\n')), open('5881684718', 'r').readlines())) # List ids of allowed users
+    'allowed_users': list(map(lambda x: int(x.strip('\n')), open('BOT_SETTINGS/USERS_ID', 'r').readlines())) # List ids of allowed users
 }
 
 watermark = {
